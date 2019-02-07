@@ -71,7 +71,7 @@
         "hostingEnvironment": ""
       },
       "dependsOn": [
-        "[concat('Microsoft.Web/serverfarms/', parameters('hostingPlanName'))]",
+        "[concat('Microsoft.Web/serverfarms/', parameters('hostingPlanName'))]"
       ]
     },
     {
